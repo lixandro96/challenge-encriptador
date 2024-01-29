@@ -29,7 +29,7 @@ body{
     border: none;
     background-color: unset;
     color: var(--colorPrimario);
-
+    resize: none;
 }
 .texto-ecriptar::placeholder{
     color: var(--colorPrimario);
