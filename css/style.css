@@ -59,19 +59,19 @@ body{
     padding: 24px;
     border-radius: 24px;
     width: 100%;
-    border: none;
+    border:2px solid var(--colorPrimario);
 }
 .btn-encriptar{
     background-color: var(--colorPrimario);
     color: var(--blanco);
-    border:none;
+    
    
 }
 
 .btn-desencriptar{
     background-color: var(--blanco);
     color: var(--colorPrimario);
-    border:2px solid var(--colorPrimario);
+
 }
 
 .contenedor__mensaje-salida{
@@ -107,6 +107,8 @@ body{
     height: 100%;
 }
 .error{
+    border: solid 1px rgb(175, 10, 10);
+    border-radius: 15px;
     padding: 10px 20px;
     color: rgb(175, 10, 10);
     font-weight: 500;
@@ -134,6 +136,9 @@ body{
         display: flex;
         justify-content: space-around;
     }
+    .contenedor-botones{
+        margin-bottom: 0;
+    }
     .condiciones-entrada{
         margin-top: 230px;
     }
@@ -157,3 +162,20 @@ body{
     }
    
 }   
+.footer{
+    padding: 20px 0;
+    text-align: center;
+}
+.creador{
+    font-size: 16px;
+    font-weight: 500;
+}
+.creador a{
+ color: #000;
+ text-decoration: none;
+
+}
+.creador a:hover{
+ text-decoration: underline;
+
+}
